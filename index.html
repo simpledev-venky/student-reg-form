@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student reg form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form">
+    <h2>Registration Form</h2>
+<form >
+<label>
+<input  class="use" type="text" placeholder="user name:venky"><br>
+<input  class="use" type="password" placeholder="password:123456">
+
+</label><br>
+<h3>Select Your Year of Study:</h3>
+<label>
+<input  class="year" type="radio" value="1 year" name="class" >1st Year
+</label><br>
+<label>
+    <input class="year"  type="radio" value="2 year" name="class" >2nd Year
+    </label><br>
+     <label>
+        <input  class="year" type="radio" value="3 year" name="class" >3rd Year
+        </label><br>
+        <label>
+            <input class="year"  type="radio" value="4 year" name="class" >4th Year
+            </label><br>
+<h3>Select your branch:</h3>
+<input type="text" name="branch">
+<datalist name="branch">
+<option value="it">it</option>
+<option value="cse">cse</option>
+<option value="ds">ds</option>
+<option value="civil">civil</option>
+<option value="mech">mech</option>
+<option value="cs">cs</option>
+</datalist>
+
+
+
+
+     <h3>Select Your Subjects:</h3>           
+<label>
+<input type="checkbox" value="p&s" name="sub">P&S
+</label><br>
+<label>
+ <input type="checkbox" value="wt" name="sub">WT
+</label><br>
+<label>
+<input type="checkbox" value="Daa" name="sub">DAA
+</label><br>
+<label>
+<input type="checkbox" value="phev" name="sub">PHEV
+</label><br>
+<h3>Select Your State:</h3>
+<select id="state">
+<option value="a.p">A.P</option>
+<option value="t.s">T.S</option>
+<option value="tamilnadu">Tamil nadu</option>
+<option value="mumbai">Mumbai</option>
+<option value="m.p">M.P</option>
+</select><br>
+
+<h3>Enter your mobile number:</h3>
+<input type="tel" name="mob-no" id="mob-no">
+
+<h3>Enter your year of passing:</h3>
+<input type="date">
+
+<h3>Give Your Feedback Here:</h3>
+<textarea class="feed" name="feedback" placeholder="please give your valuable feedback" rows="6"></textarea>
+    <br>
+    <div >
+        <input type="file" ><br>
+        <input type="submit" value="submit" class="sub">
+</div>
+    </div>
+        
+    </form>
+    
+</body>
+</html>
